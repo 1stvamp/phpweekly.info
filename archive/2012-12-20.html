@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>PHP Weekly #3 (archived)</title>
+		
+    <style type="text/css">
+		#outlook a{
+			padding:0;
+		}
+		.ReadMsgBody{
+			width:100%;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		body{
+			margin:0;
+			padding:0;
+		}
+		img{
+			border:0;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+		}
+		table,td{
+			border-collapse:collapse !important;
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		#bodyTable,#bodyCell{
+			height:100% !important;
+			margin:0;
+			padding:0;
+			width:100% !important;
+		}
+		#bodyCell{
+			padding:20px;
+		}
+		#templateContainer{
+			width:600px;
+		}
+		body,#bodyTable{
+			background-color:#e7e7e7;
+		}
+		h1{
+			color:#000000 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:64px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:center;
+		}
+		h2{
+			color:#000000 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:center;
+		}
+		h3{
+			color:#000000 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:center;
+		}
+		h4{
+			color:#d5000d !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:18px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:left;
+		}
+		#templatePreheader{
+			border-top:0;
+			border-bottom:0;
+		}
+		.preheaderContent{
+			color:#000000;
+			font-family:Helvetica;
+			font-size:10px;
+			line-height:125%;
+			padding-top:10px;
+			padding-bottom:10px;
+			text-align:left;
+		}
+		.preheaderContent a:link,.preheaderContent a:visited,.preheaderContent a .yshortcuts {
+			color:#000000;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		#templateHeader{
+			border-top:10px solid #000000;
+			border-bottom:5px solid #000000;
+		}
+		.headerContent{
+			color:#000000;
+			font-family:Helvetica;
+			font-size:20px;
+			font-weight:bold;
+			line-height:100%;
+			padding-top:20px;
+			padding-bottom:20px;
+			text-align:center;
+		}
+		.headerContent a:link,.headerContent a:visited,.headerContent a .yshortcuts {
+			color:#000000;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		#headerImage{
+			height:auto;
+			max-width:600px !important;
+		}
+		#templateBody{
+			border-top:0;
+			border-bottom:0;
+		}
+		.bodyContent{
+			color:#000000;
+			font-family:Helvetica;
+			font-size:16px;
+			line-height:150%;
+			padding-top:40px;
+			padding-bottom:40px;
+			text-align:left;
+		}
+		.bodyContent a:link,.bodyContent a:visited,.bodyContent a .yshortcuts {
+			color:#FF0000;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.bodyContent img{
+			display:inline;
+			height:auto;
+			max-width:600px !important;
+		}
+		#templateFooter{
+			border-top:2px solid #000000;
+			border-bottom:20px solid #000000;
+		}
+		.footerContent{
+			color:#000000;
+			font-family:Helvetica;
+			font-size:10px;
+			line-height:150%;
+			padding-top:20px;
+			padding-bottom:20px;
+			text-align:center;
+		}
+		.footerContent a:link,.footerContent a:visited,.footerContent a .yshortcuts,.footerContent a span {
+			color:#000000;
+			font-weight:bold;
+			text-decoration:none;
+		}
+		.footerContent img{
+			display:inline;
+			height:auto;
+			max-width:600 !important;
+		}
+	@media only screen and (max-width: 500px){
+		body,table,td,p,a,li,blockquote{
+			-webkit-text-size-adjust:none !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		body{
+			width:auto !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		td[id=bodyCell]{
+			padding:10px;
+		}
+
+}	@media only screen and (max-width: 500px){
+		table[id=templateContainer]{
+			max-width:600px !important;
+			width:100% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		h1{
+			font-size:40px !important;
+			line-height:100% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		h2{
+			font-size:20px !important;
+			line-height:100% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		h3{
+			font-size:18px !important;
+			line-height:100% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		h4{
+			font-size:16px !important;
+			line-height:100% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		table[id=templatePreheader]{
+			display:none !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		td[class=headerContent]{
+			font-size:20px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		td[class=bodyContent]{
+			font-size:18px !important;
+			line-height:125% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		td[class=footerContent]{
+			font-size:14px !important;
+			line-height:150% !important;
+		}
+
+}	@media only screen and (max-width: 500px){
+		td[class=footerContent] a{
+			display:block !important;
+		}
+
+}</style></head>
+    <body style="margin: 0;padding: 0;background-color: #e7e7e7;">
+    	<center>
+        	<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;background-color: #e7e7e7;border-collapse: collapse !important;height: 100% !important;width: 100% !important;">
+            	<tr>
+                	<td align="center" height="100%" valign="top" width="100%" id="bodyCell" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 20px;border-collapse: collapse !important;height: 100% !important;width: 100% !important;">
+                    	<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse !important;">
+                        	<tr>
+                            	<td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+                                    <!-- BEGIN PREHEADER -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 0;border-bottom: 0;border-collapse: collapse !important;">
+                                        <tr>
+                                            <td class="preheaderContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 125%;padding-top: 10px;padding-bottom: 10px;text-align: left;border-collapse: collapse !important;">Fresh PHP linkage from the sofa of Wes Mason.</td>
+                                            <td width="220" class="preheaderContent" style="padding-left: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 125%;padding-top: 10px;padding-bottom: 10px;text-align: left;border-collapse: collapse !important;">
+                                                <a href="../archive/" target="_blank" style="color: #000000;font-weight: bold;text-decoration: none;">Back to the archive</a>.
+                                        </tr>
+                                    </table>
+                                    <!-- END PREHEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+                                	<!-- BEGIN HEADER -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 10px solid #000000;border-bottom: 5px solid #000000;border-collapse: collapse !important;">
+                                    	<tr>
+                                            <td valign="top" class="headerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 20px;font-weight: bold;line-height: 100%;padding-top: 20px;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"><h1 style="display: block;font-family: Helvetica;font-size: 64px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;color: #000000 !important;">
+	<span style="color:#303030;">PHP Weekly</span></h1>
+<h2 style="display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;color: #000000 !important;">
+	<span style="color:#aaa;">Issue #3 for Thursday 20<sup>th</sup> of December 2012</span></h2>
+</td>
+                                        </tr>
+                                    </table>
+                                	<!-- END HEADER -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+                                	<!-- BEGIN BODY -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 0;border-bottom: 0;border-collapse: collapse !important;">
+                                    	<tr>
+                                        	<td valign="top" class="bodyContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 16px;line-height: 150%;padding-top: 40px;padding-bottom: 40px;text-align: left;border-collapse: collapse !important;"><h2 style="text-align: left;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;color: #000000 !important;">
+	<font color="#d5000d" size="4"><span style="line-height: 18px;">In which news is slow but articles are goooood</span></font></h2>
+As we get closer to the festive season proper news and links are beginning to thin out, but quality is an all time high (well for this lists short 3 week life time that is).<br>
+<br>
+I generally encourage everyone to tweet my <a href="http://twitter.com/1stvamp" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">personal account</a> on Twitter, and follow me if you&#39;re that way inclined, but I know my tweets aren&#39;t for everyones tastes, being sometimes personal, sometimes about politics, humour, or just non-PHP tech (e.g. Python, JavaScript, DevOps etc.).<br>
+With that in mind I created <a href="http://twitter.com/phpweekly" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">@PHPWeekly</a> in which I will retweet any list related nuggets (new issue announcements for example).<br>
+<br>
+With&nbsp;<em>the 25th</em> being next week (you know, that day involving mince pies) don&#39;t expect much in the way of PHP related content, but I will endeavour to get the next issue out as usual on Thursday.<br>
+On that note there&#39;ll be no RFCs round up this week, partly so I can have a longer section to fill in some content next week, and partly because I seem to be coming down with a cold.&nbsp;<em>*sneeze*</em><br>
+<br>
+<h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;">
+	News &amp; announcements</h4>
+<a href="http://framework.zend.com/blog/zend-framework-2-0-6-released.html" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Zend Framework 2.0.6 released</a><br>
+&quot;This release includes almost 60 patches, ranging from minor docblock improvements to complete bugfixes.&quot;<br>
+<br>
+<a href="http://framework.zend.com/blog/zend-framework-1-11-15-and-1-12-1-released.html" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Zend Framework 1.11.15 and 1.12.1 released</a><br>
+These are security fix releases for <a href="http://framework.zend.com/security/advisory/ZF2012-05" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">potential exploit</a> found in&nbsp;<em>Zend_Feed_Rss</em> and <em>Zend_Feed_Atom&nbsp;</em>- even if you don&#39;t use these classes directly you should still update <em>now</em> in case you rely on anything with a dependency on them or do so in the future.<br>
+<br>
+<a href="http://wordpress.org/news/2012/12/elvin/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Wordpress 3.5 &quot;Elvin&quot; released</a><br>
+The biggest change in this fresh release of the defacto blogging app is a reimplemented and smoother photo/media uploading process, an updated default theme and lots of UX tweaks.<br>
+<br>
+<a href="http://www.phparch.com/2012/12/musketeers-me-to-acquire-phparchitects-brand-and-products-effective-january-1st/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Musketeers.me to acquire php|architect&rsquo;s brand and products effective January 1st</a><br>
+A heartfelt announcement by Marco Tabini on how far he and the team have come with php|a over the past 10 years (<em>as it really been that long? I remember my first subscription dropping through the letterbox like it was yesterday</em>) and how they feel it&#39;s time to move on but not without leaving the magazine and accompanying works (books, training, events etc.) in very good community-focussed hands.<br>
+<br>
+<a href="http://tek.phparch.com/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">php[tek] 2013 announced, and call for papers!</a><br>
+Despite everyone wondering if there would even be a php[tek] next year it turns out things had just been a bit busy at the <a href="http://www.phparch.com/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">php|a</a> offices with the above brand changeover news, php[tek] will be back and bigger than ever. No signups yet but they have a <a href="http://tek13.phparch.com/call-for-papers/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">CFP</a> out, so get those talk proposals submitted (before Jan 15th).<br>
+<br>
+<a href="https://groups.google.com/forum/?fromgroups=#!topic/mongodb-user/p8kOQhE5olo" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">MongoDB PHP Driver 1.3.2 released</a><br>
+<br>
+<a href="http://auraphp.github.com/2012/12/18/new-system-release/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Aura fullstack 1.0.0-beta4 released</a><br>
+<br>
+<h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;">
+	Audiovisuals</h4>
+<a href="http://voicesoftheelephpant.com/2012/12/18/interview-with-chris-spruck-kevin-roberts-and-nic-rosental/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Voices of the ElePHPant:&nbsp;Interview with Chris Spruck, Kevin Roberts, and Nic Rosental</a><br>
+Cal Evans is back for another excellent podcast, this time featuring a roundtable discussion with <a href="http://atlantaphp.org/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">PHP Atlanta</a>&nbsp;user group organisers <a href="https://twitter.com/cspruck" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Chris Spruck</a>, <a href="https://twitter.com/robokev" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Kevin Roberts</a> and <a href="https://twitter.com/nicdev" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Nic Rosental</a>&nbsp;discussing amongst other things the huge success of PHP Atlanta, it&#39;s blowout 100th meeting, and the intricacies of what&nbsp;<em>works</em> and&nbsp;<em>doesn&#39;t work&nbsp;</em>when organising UGs.<br>
+<br>
+<br>
+<h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;">
+	Articles</h4>
+<a href="http://webmozarts.com/2012/12/15/on-libraries-and-dependencies/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">On Libraries and Dependencies</a><br>
+Bernhard Schussek addresses the recent spate of posts on how framework components, such as <a href="http://auraphp.github.com/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Aura</a>&nbsp;should not have dependencies, and with it even more articles and opinion pieces saying that&nbsp;dependencies&nbsp;are a bad thing. Bernhard rightly puts this hogwash to bed before everyone gets all&nbsp;<em>Not Invented Here</em>, as projects like Guzzle and Laravel have recently shown dependencies on existing well written packages are a good thing and with Composer inclusion and use of such packages is practically painless.<br>
+<br>
+<a href="http://jason.pureconcepts.net/2012/12/php-micro-optimizations/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">A Response to &quot;Micro-Optimizations in PHP&quot;</a><br>
+A detailed response by&nbsp;Jason McCreary, to an earlier linked to article on micro-optimisations, debunking in turn each myth and wrong assumption made. For more information on the single quotes vs double quotes myth Nikita Popov wrote an <a href="http://nikic.github.com/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">excellent piece</a> earlier in the year.<br>
+<br>
+<a href="http://www.thespanner.co.uk/2012/12/13/tweetable-php-non-alpha/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Tweetable PHP Non-Alpha</a><br>
+and&nbsp;<a href="http://insert-script.blogspot.co.uk/2012/12/php-non-alpha-numeric-76-chars.html" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">PHP &nbsp;non alpha numeric 7 and 6 char code</a><br>
+A very fun couple of posts, by Gareth Heyes and&nbsp;Alex Inf&uuml;hr respectively, on writing PHP code using non-alphanumeric character sets and language tricks. Most of these only work in PHP &gt;= 5.4, but they&#39;re very cool from a..well..<em>that&#39;s quite cool</em> standpoint, you&#39;d probably never use any of the tricks but it&#39;s good as an intellectual exercise to understand them in the context of the language.<br>
+<br>
+<a href="http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Seven Ways To Screw Up BCrypt</a><br>
+List favourite&nbsp;Anthony Ferrara gives a nice rundown of common and some not-so-common pitfalls when generating BCrypt hashes in your application, e.g. for passwords. I particularly liked <i>using versions of PHP with fallbacks if bcrypt &nbsp;support isn&#39;t compiled in&nbsp;</i>and the bonus&nbsp;<em>guarding against timing attacks.</em><br>
+<br>
+<a href="http://gonzalo123.com/2012/12/17/multiple-inheritance-with-php-and-traits/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Multiple inheritance with PHP and Traits</a><br>
+Gonzalo Ayuso&#39;s post shows how you can <em>kinda</em>&nbsp;do multiple inheritance using PHP 5.4&#39;s <a href="http://php.net/traits" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">traits</a>&nbsp;feature, with a good description of what traits&nbsp;<em>are</em> and&nbsp;<em>aren&#39;t</em>, and how to use them without method and property collisions.<br>
+<br>
+<a href="http://www.websanova.com/tutorials/php/timezones-the-right-way#.UNLUEmWinnF" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Timezones, the Right Way</a><br>
+A well written piece on getting those tricky little buggers&nbsp;<em>timezones</em> right in your app. I don&#39;t know a single dev who likes working with timezones or the annoyances that go with them, but there is some good solid advice in this article from setting a default timezone and storing all your dates in UTC, to some well thought out [My]SQL queries.<br>
+<br>
+<a href="http://net.tutsplus.com/tutorials/php/what-to-expect-from-php-5-5/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">What to Expect From PHP 5.5</a><br>
+Another article on the hotness coming in 5.5, this time from&nbsp;Gabriel Manricks. If you&#39;ve followed my previous mailshots you&#39;ll probably know all these, but Gabriel gives a very thurough write up and covers the lesser known cURL tweaks coming in 5.5, and small but lovely addition of <em>[&quot;const&quot;, &quot;and&quot;, &quot;string dereferencing&quot;][1]</em>.<br>
+<br>
+<a href="http://webadvent.org/2012/the-three-ugly-sisters-by-p%C3%A1draic-brady" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">The Three Ugly Sisters</a><br>
+P&aacute;draic Brady with a brilliant piece of Web Advent on what he terms&nbsp;<em>the Three Ugly Sisters</em> or in other words 3 different classes of security exploit which he&#39;s tried to highlight over the year, including&nbsp;<em>Peerjacking</em>,&nbsp;<em>XML injection</em> and our old friend&nbsp;<em>XSS</em>. With each description he includes examples of the wrong way to do it in PHP and how to get it right.<br>
+<br>
+<a href="http://drafts.easybib.com/post/38230669404/composer-github-travisci" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Composer, Github and Travis-CI</a><br>
+A quick and simple post by one of the guys at EasyBib on how they use Composer with Travis-CI to test code on GitHub repos using a stored token. This is similar to how we&#39;re doing builds at SD but follow the words of caution closely and don&#39;t accidentally leak GitHub tokens in your public repos!<br>
+<br>
+<a href="http://webadvent.org/2012/continuous-deployment-practices-by-laura-thomson" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Continuous Deployment Practices</a><br>
+Continuing my practice of ending this section with a&nbsp;<em>not-strictly-PHP</em> entry, another WebAdvent post this time by community-fave&nbsp;Laura Thomson on a subject close to my heart: Continuous Deployment. Laura goes through some of what she considers best practices (and I agree, in some cases I&#39;d say&nbsp;<em>requirements</em>, but that ones a touchy subject). Great advice all round and if you&#39;re not doing this then you should..well..you should look into it, anyway. Remember if in doubt&nbsp;<a href="http://shipitsquirrel.github.com/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;"><em>just ship it!</em></a><br>
+<br>
+<h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;">
+	Projects</h4>
+<a href="https://github.com/opensoft/simple-serializer" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">simple-serializer</a><br>
+A nice and simple JSON serializer/deserializer API for handling objects given configuration on how to handle non-JSON-native types.<br>
+<br>
+<a href="https://github.com/szjani/lf4php" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">lf5php</a><br>
+A framwork for creating logging framework&nbsp;<em>facades</em>, or wrappers, so that you can use a different logging mechanism as a backend but access the logging through the same interface, e.g.&nbsp;<em>$logger-&gt;info(&#39;Info yo!&#39;);</em><br>
+<br>
+<a href="https://github.com/Maks3w/xmldsig" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">xmldsig</a><br>
+A library for handling <a href="http://www.w3.org/TR/xmldsig-core/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">XML Digital Signatures</a> in PHP.<br>
+<br>
+<a href="https://github.com/jeremykendall/phpctagger" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">phpctagger</a><br>
+A utility for generating&nbsp;<em>ctags</em> from a Composer package or project, which you can then use where ever you can use ctags, like in your IDE of choice (and have the unique symbols for the package recognised by the editors highlighting and autocompletion).<br>
+<br>
+<a href="https://github.com/crxgames/PHPHandles" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">PHPHandles</a><br>
+A wrapper around the V8 JavaScript engine and <a href="https://github.com/wycats/handlebars.js/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Handlebars.js</a>&nbsp;for generating content from Handlebars templates on the server-side.<br>
+<br>
+<a href="https://github.com/jasonlewis/expressive-date" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Expressive Date</a><br>
+A simple little extension to the inbuilt <a href="http://uk1.php.net/manual/en/class.datetime.php" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">DateTime class</a>&nbsp;which adds fluent access to methods.<br>
+<br>
+<a href="https://github.com/jakiestfu/Throttle" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Throttle</a><br>
+A simple library for limiting a function call based on calls within a set time period.<br>
+<br>
+<a href="https://github.com/nicksagona/Popcorn" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Popcorn</a><br>
+A micro-framework for creating RESTful webservices, based on the <a href="http://www.popphp.org/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Pop</a> framework.<br>
+<br>
+<a href="https://github.com/madebykrol/ServeMi" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">ServeMI</a><br>
+A nice idea that has been done before in other languages and frameworks: take a command line utility, stick a simple PHP script with a given API in front of it, et voila you can now access the util via HTTP. No license or much docs (yet) but interesting to see as a concept.<br>
+<br>
+<a href="https://github.com/scriptor/pharen" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Pharen</a><br>
+Ever wished you could write your apps in LISP-like syntax and then have it compiled to PHP to run on your server? Well, umm, me either, but&nbsp;Tamreen Khan did and he&#39;s done <a href="https://github.com/Scriptor" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">some interesting things</a> with it.<br>
+<br>
+<h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;">
+	Upcoming events</h4>
+<a href="http://brightonphp.org/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">Brighton PHP User Group</a><br>
+Brighton, UK<br>
+A newly started monthly meetup in the Brighton area, and they already seem to have organised some very good talks, if you&#39;re in or near Brighton and can make a meeting check it out (stay tuned to the site for Januarys as Decembers has just passed).<br>
+<br>
+<a href="http://phpmasterseriesv1.eventbrite.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_blank">PHP Master Series vol 1</a><br>
+<em>The Internets</em><br>
+December 21st 2012<br>
+<br>
+<a href="http://sunshinephp.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_blank">SunshinePHP Conference</a><br>
+Miama, Florida, USA<br>
+February 8th-9th 2013<br>
+<br>
+<a href="http://conference.laravel.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_blank">Laracon</a><br>
+Washington DC, USA<br>
+February 22nd-23rd 2013<br>
+<br>
+<a href="http://phpconference.co.uk/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_blank">PHP UK</a><br>
+London, UK<br>
+February 22nd-23rd 2013<br>
+<br>
+<a href="http://tek.phparch.com/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">php[tek]</a><br>
+Chicago, USA<br>
+May 14th-17th 2013<br>
+<br>
+<strong>To find PHP User Groups in your area check out <a href="http://php.ug/" target="_blank" style="color: #FF0000;font-weight: normal;text-decoration: none;">PHP.ug</a>!</strong><br>
+<br>
+<hr style="height: 2px; background-color: #000; border: none">
+<br>
+<br>
+<strong style="font-size: 16px; line-height: 24px;"><a href="http://www.serverdensity.com/" style="color: #FF0000;font-weight: normal;text-decoration: none;"><img align="left" alt="Server Density" height="100" src="http://gallery.mailchimp.com/a55a944d1fa277174ec5f10a2/images/sd_logo.gif" style="height: 100px;line-height: 16px;width: 100px;margin-right: 20px;margin-bottom: 25px;margin-left: 10px;border: 0;outline: none;text-decoration: none;display: inline;max-width: 600px !important;" width="100"></a></strong>
+<h2 style="text-align: left;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;color: #000000 !important;">
+	<font color="#d5000d" size="4"><span style="line-height: 18px;">&lt;aside&gt; from our sponsors:</span></font></h2>
+<p>
+	<strong>Server Density</strong> is a server and website monitoring tool. We&rsquo;re supporting Wes in his quest to continually publish free, awesome PHP linkage. If you like free and awesome, you should <a href="http://blog.serverdensity.com/?kme=Followed+Sponsor+Link&km_email+type=phpweekly" style="color: #FF0000;font-weight: normal;text-decoration: none;">visit our devops tech blog today</a>.</p>
+</td>
+                                        </tr>
+                                    </table>
+                                	<!-- END BODY -->
+                                </td>
+                            </tr>
+                            <tr>
+                            	<td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;">
+                                	<!-- BEGIN FOOTER -->
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 2px solid #000000;border-bottom: 20px solid #000000;border-collapse: collapse !important;">
+                                    	<tr>
+                                        	<td valign="top" class="footerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 150%;padding-top: 20px;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"><a href="http://twitter.com/1stvamp" style="color: #000000;font-weight: bold;text-decoration: none;">Follow @1stvamp on Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://twitter.com/phpweekly" style="color: #000000;font-weight: bold;text-decoration: none;">Follow @phpweekly on Twitter</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://us6.forward-to-friend.com/forward?u=a55a944d1fa277174ec5f10a2&amp;id=a2f2e4276f&amp;e=d9d5687f03" style="color: #000000;font-weight: bold;text-decoration: none;">Forward to Friend</a>&nbsp; </td>
+                                        </tr>
+                                    	<tr>
+                                        	<td valign="top" class="footerContent" style="padding-top: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 150%;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license" style="color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;"><img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="line-height: 10px;display: inline;border: 0;height: auto;outline: none;text-decoration: none;max-width: 600 !important;"></a><br>
+This work is licensed under a&nbsp;<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license" style="color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br>
+<br>
+</td>
+                                        </tr>
+                                    </table>
+                                	<!-- END FOOTER -->
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <script type="text/javascript">var switchTo5x=true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+        <script>
+            stLight.options({publisher: "8eaba935-5f56-48b1-b3c1-2a82188a3af3"});
+            var options={ "publisher": "8eaba935-5f56-48b1-b3c1-2a82188a3af3", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "googleplus", "reddit", "delicious"]}};
+            var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+        </script>
+    </body>
+</html>
