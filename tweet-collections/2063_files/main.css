@@ -1,0 +1,487 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    color: #222;
+    background-color: #3B6ECB;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#224198), to(#3B6ECB));
+    background-image: -moz-linear-gradient(#224198, #3B6ECB);
+    background-position: 0 0;
+}
+ul, ol, li, p, form, h1, h2, h3, h4, h5, h6, input, table {
+    margin: 0;
+    padding: 0;
+}
+ol, ul, li {
+    list-style: none;
+}
+a {
+    color: #234195;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    border: 0;
+}
+
+.content {
+    width: 560px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    font-size: 15px;
+}
+.content h1 {
+    margin: 0 0 20px 0;
+}
+.content p {
+    margin: 1em 0;
+}
+#footer {
+    clear: left;
+    width: 584px;
+    margin: 0 auto 30px auto;
+    padding: 8px;
+    background: #E8EFFF;
+    border-top: 1px solid #B1C5FF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+}
+#footer p {
+    font-size: 14px;
+    line-height: 24px;
+}
+#footer p img {
+    float: left;
+    margin-right: 6px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tweetForm {
+    margin: 1em 0;
+}
+.tweetForm p {
+    margin: 0.5em 0;
+}
+.tweetForm input {
+    vertical-align: middle;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.tweetForm textarea {
+    font-size: 18px;
+    width: 100%;
+}
+
+h1 {
+    font: normal 20px "Georgia", serif;
+}
+h1 img {
+    margin: -6px 7px 0 0;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 1em 0 0.5em 0;
+}
+div.debug {
+    overflow: auto;
+}
+#tweets {
+    overflow: hidden;
+}
+#tweets h1 {
+    position: relative;
+    width: 560px;
+    margin: 19px auto 30px auto;
+    padding: 20px;
+    background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+#tweets h1.savedBy {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+}
+#tweets h2.savedBy {
+    width: 560px;
+    margin: 0 auto 30px auto;
+    padding: 7px 20px 8px 20px;
+    border-top: 1px solid #B1C5FF;
+    background-color: #E8EFFF;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+}
+#tweets h2.savedBy img {
+    margin: -3px 7px 0 0;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+h2.savedBy span.tweetsSoFarWrap {
+    float: right;
+}
+#tweets h1 a.action {
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin: 2px 0 5px 5px;
+    padding: 0;
+}
+#tweets h1 a.save {
+     background: url('/images/icon_favourites_grey.gif') no-repeat 0 50%;
+}
+#tweets h1 a.discard {
+     background: url('/images/icon_favourites.gif') no-repeat 0 50%;
+}
+#tweets h1 a.loading {
+     background: url('/images/icon_favourites_loading.gif') no-repeat 0 50%;
+}
+#tweets h2.invalidTweet {
+    width: 560px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #fff;
+    background: #24449B;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+#tweets h2.invalidTweet a {
+    color: #fff;
+    text-decoration: underline;
+}
+#tweets li.tweetItem {
+    padding: 1px 20px 40px 20px;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    background-color: #3B6ECB;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#224198), to(#3B6ECB));
+    background-image: -moz-linear-gradient(#224198, #3B6ECB);
+    background-position: 0 0;
+}
+#tweets.search div.tweet {
+    cursor: pointer;
+}
+#tweets div.tweet {
+    width: 600px;
+    margin: 39px auto 0 auto;
+    padding: 2px;
+    word-wrap: break-word;
+    border-radius: 10px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 10px;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+}
+#tweets div.contentFooter {
+    padding: 5px 20px;
+    margin-top: 39px;
+}
+#tweets div.collected {
+    margin-top: 37px;
+    background-color: #222;
+    border: 2px solid #fff;
+}
+#tweets div.collected + div.tweet,
+#tweets div.collected + div.contentFooter {
+    margin-top: 37px;
+}
+#tweets div.collected + div.collected {
+    margin-top: 35px;
+}
+#tweets div.wrapper {
+    padding: 20px 20px 18px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    background-color: #fff;
+}
+#tweets div.profileWrapper {
+    padding: 20px;
+    border-top: 1px solid #e6e6e6;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    -moz-border-radius-bottomright: 8px;
+    background-color: #fff;
+}
+#tweets p.text {
+    margin: 0;
+    font: normal 27px "Georgia", serif;
+}
+#tweets p.media img {
+    margin: 10px 0 0 0;
+}
+#tweets div.embed {
+    margin: 20px 0;
+    overflow: hidden;
+}
+#tweets div.embed img.thumb {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+#tweets div.embed a.provider {
+    color: #999;
+    font-size: 12px;
+    margin-left: 3px;
+}
+#tweets p.metadata,
+#tweets p.metadata a {
+    color: #999;
+}
+#tweets p.metadata {
+    clear: left;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+}
+#tweets p.metadata span.actions {
+    float: right;
+}
+#tweets p.username {
+    margin: 0;
+    font-size: 19px;
+}
+#tweets p.username img {
+    float: left;
+    margin: 0 15px 20px 0;
+}
+#tweets p.realname {
+    font-size: 15px;
+    margin: 0 0 1px 0;
+}
+
+#tweets .publicTweets {
+    margin: -20px -20px 0 -20px;
+    padding: 5px 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    background-color: #eee;
+}
+
+button.button {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    overflow: visible; /* removes extra width in IE */
+    zoom: 1;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-color: #ddd #aaa #aaa #ddd;
+    background-color: #f5f5f5;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f5f5f5));
+    background: -moz-linear-gradient(#f9f9f9, #f5f5f5);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    box-shadow: 0 0 1px #eee;
+    -webkit-box-shadow: 0 0 1px #eee;
+    -moz-box-shadow: 0 0 1px #eee;
+    cursor: pointer;
+}
+button.button:hover {
+    border-color: #ccc #888 #888 #ccc;
+    background-color: #eee;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+    background: -moz-linear-gradient(#f5f5f5, #eee);
+    background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+}
+button.button span,
+button.button a,
+button.button a:hover {
+    display: block;
+    padding: 0.3em 0.4em;
+    line-height: 1.4;
+    text-align: center;
+    font-size: 1.2em;
+    color: #222;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+button#searchFormSave {
+    float: right;
+    margin-top: -5px;
+    padding: 0.4em 1em;
+}
+
+ul.list {
+    margin: 0 -20px -20px -20px;
+}
+ul.list li {
+    border-top: 1px solid #eee;
+}
+ul.list li:first-child {
+    border: 0;
+}
+ul.list li a.collection {
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+}
+ul.list li a.collection:hover {
+    background: #f7f7f7;
+}
+ul.list li span.heading {
+    font: normal 15px "Georgia", serif;
+    display: block;
+    padding: 10px 0;
+    color: #3b6ecb;
+}
+ul.list li span.date {
+    float: right;
+}
+ul.list li span.pictures {
+    display: block;
+}
+ul.list li span.pictures img {
+    margin-left: 1px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+ul.list li span.names {
+    display: block;
+    padding: 5px 0 10px 0;
+}
+
+.twitter-share-button {
+    margin-right: 5px;
+    float: right;
+}
+.star {
+    margin-top: -6px;
+    vertical-align: middle;
+}
+span.bull {
+    margin: 0 2px;
+    color: rgba(0,0,0,0.3);
+}
+
+ul.collections {
+    clear: left;
+    margin: -2px -6px -6px -6px;
+}
+ul.collections li {
+    border-top: 1px solid #eee;
+}
+ul.collections a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    background-color: #fff;
+    overflow: hidden;
+}
+ul.collections a:hover {
+    background-color: #f7f7f7;
+}
+ul.collections span.tweet,
+ul.collections span.collection,
+ul.collections span.protected {
+    display: block;
+    margin: 0;
+}
+ul.collections img {
+    vertical-align: top;
+}
+ul.collections span.tweet,
+ul.collections span.protected {
+    padding: 7px 7px 5px 62px;
+    font: normal 14px/16px 'Lucida Grande', sans-serif;
+}
+ul.collections span.protected {
+    font-style: italic;
+}
+ul.collections span.tweet img {
+    float: left;
+    margin: 0 7px 10px -55px;
+}
+ul.collections span.collection {
+    padding: 0 7px 7px 62px;
+    color: #999;
+    font: normal 11px/16px 'Lucida Grande', sans-serif;
+}
+ul.collections span.collection img {
+    margin: 0 0 0 7px;
+}
+
+.vitals {
+    margin: 0 0 20px 0;
+}
+.vitals p {
+    margin: 0;
+}
+.vitals p.name img {
+    float: left;
+    margin: 0 10px 10px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.vitals p.description {
+    font: italic 15px "Georgia", serif;
+    line-height: 1.6;
+}
+
+p.error {
+    margin: 20px 0 0 0;
+    padding: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #FFE97D;
+}
