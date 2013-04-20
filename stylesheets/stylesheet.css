@@ -76,6 +76,12 @@ header h1 {
   line-height: 1.2;
 }
 
+header h1 img {
+  margin-bottom: -30px;
+  margin-right: -20px;
+  margin-left: 1em;
+}
+
 header h2 {
   letter-spacing: -1px;
   font-size: 24px;
