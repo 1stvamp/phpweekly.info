@@ -1,0 +1,15 @@
+{
+    "name": "1stvamp/phpweekly",
+    "description": "Website generation tools for phpweekly.info",
+    "require": {
+        "faceleg/html5lib-php": "dev-master",
+        "suin/php-rss-writer": "1.2"
+    },
+    "license": "CC-BY-SA-3.0",
+    "authors": [
+        {
+            "name": "Wes Mason",
+            "email": "wes@1stvamp.org"
+        }
+    ]
+}
