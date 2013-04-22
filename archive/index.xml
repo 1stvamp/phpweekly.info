@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>PHP Weekly</title>
+    <link>http://phpweekly.info/archive/</link>
+    <description>Archived PHP Weekly issues</description>
+    <item>
+      <title>Issue #1 for Thursday the 6th of December 2012</title>
+      <link>http://phpweekly.info/archive/2012-12-06.html</link>
+      <description>Issue #1 for Thursday the 6th of December 2012</description>
+      <pubDate>Thu, 06 Dec 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #2 for Thursday the 13th of December 2012</title>
+      <link>http://phpweekly.info/archive/2012-12-13.html</link>
+      <description>Issue #2 for Thursday the 13th of December 2012</description>
+      <pubDate>Thu, 13 Dec 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #3 for Thursday the 20th of December 2012</title>
+      <link>http://phpweekly.info/archive/2012-12-20.html</link>
+      <description>Issue #3 for Thursday the 20th of December 2012</description>
+      <pubDate>Thu, 20 Dec 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #4 for Thursday the 27th of December 2012</title>
+      <link>http://phpweekly.info/archive/2012-12-27.html</link>
+      <description>Issue #4 for Thursday the 27th of December 2012</description>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #5 for Thursday the 3rd of January 2013</title>
+      <link>http://phpweekly.info/archive/2013-01-03.html</link>
+      <description>Issue #5 for Thursday the 3rd of January 2013</description>
+      <pubDate>Thu, 03 Jan 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #6 for Thursday the 10th of January 2013</title>
+      <link>http://phpweekly.info/archive/2013-01-10.html</link>
+      <description>Issue #6 for Thursday the 10th of January 2013</description>
+      <pubDate>Thu, 10 Jan 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #7 for Friday the 25th of January 2013</title>
+      <link>http://phpweekly.info/archive/2013-01-25.html</link>
+      <description>Issue #7 for Friday the 25th of January 2013</description>
+      <pubDate>Fri, 25 Jan 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #8 for Thursday the 31st of January 2013</title>
+      <link>http://phpweekly.info/archive/2013-01-31.html</link>
+      <description>Issue #8 for Thursday the 31st of January 2013</description>
+      <pubDate>Thu, 31 Jan 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #9 for Friday the 8th of February 2013</title>
+      <link>http://phpweekly.info/archive/2013-02-08.html</link>
+      <description>Issue #9 for Friday the 8th of February 2013</description>
+      <pubDate>Fri, 08 Feb 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #10 for Friday the 15th of February 2013</title>
+      <link>http://phpweekly.info/archive/2013-02-15.html</link>
+      <description>Issue #10 for Friday the 15th of February 2013</description>
+      <pubDate>Fri, 15 Feb 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #11 for Friday the 22nd of February 2013</title>
+      <link>http://phpweekly.info/archive/2013-02-22.html</link>
+      <description>Issue #11 for Friday the 22nd of February 2013</description>
+      <pubDate>Fri, 22 Feb 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #12 for Saturday the 2nd of March 2013</title>
+      <link>http://phpweekly.info/archive/2013-03-02.html</link>
+      <description>Issue #12 for Saturday the 2nd of March 2013</description>
+      <pubDate>Sat, 02 Mar 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #13 for Saturday the 16th of March 2013</title>
+      <link>http://phpweekly.info/archive/2013-03-16.html</link>
+      <description>Issue #13 for Saturday the 16th of March 2013</description>
+      <pubDate>Sat, 16 Mar 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #14 for Saturday the 23rd of March 2013</title>
+      <link>http://phpweekly.info/archive/2013-03-23.html</link>
+      <description>Issue #14 for Saturday the 23rd of March 2013</description>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #15 for Saturday the 30th of March 2013</title>
+      <link>http://phpweekly.info/archive/2013-03-30.html</link>
+      <description>Issue #15 for Saturday the 30th of March 2013</description>
+      <pubDate>Sat, 30 Mar 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #16 for Saturday the 20th of April 2013</title>
+      <link>http://phpweekly.info/archive/2013-04-20.html</link>
+      <description>Issue #16 for Saturday the 20th of April 2013</description>
+      <pubDate>Sat, 20 Apr 2013 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
