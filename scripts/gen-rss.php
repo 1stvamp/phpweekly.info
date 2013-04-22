@@ -16,7 +16,6 @@ $channel
 	->url($base_uri)
 	->appendTo($feed);
 
-
 foreach($dom->body->div[0]->div[0]->section[0]->ul[0]->li as $li) {
 	$title = (string)$li->a;
 	$link = $base_uri . $li->a['href'];
@@ -31,5 +30,6 @@ foreach($dom->body->div[0]->div[0]->section[0]->ul[0]->li as $li) {
 		->pubDate($date)
 		->appendTo($channel);
 }
+
 echo 'Updating ' . $base_dir . 'archive/index.xml' . PHP_EOL;
 file_put_contents($base_dir . 'archive/index.xml', (string)$feed);
