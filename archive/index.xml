@@ -4,7 +4,7 @@
     <title>PHP Weekly</title>
     <link>http://phpweekly.info/archive/</link>
     <description>Archived PHP Weekly issues</description>
-    <lastBuildDate>Sun, 05 May 2013 21:52:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2013 22:08:23 +0000</lastBuildDate>
     <item>
       <title>Issue #1 for Thursday the 6th of December 2012</title>
       <link>http://phpweekly.info/archive/2012-12-06.html</link>
@@ -4368,6 +4368,242 @@ This work is licensed under a &lt;a href="http://creativecommons.org/licenses/b
 
 &lt;/body&gt;</description>
       <pubDate>Sun, 28 Apr 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Issue #18 for Sunday the 5th of May 2013</title>
+      <link>http://phpweekly.info/archive/2013-05-05.html</link>
+      <description>&lt;body style="margin: 0;padding: 0;background-color: #e7e7e7;"&gt;
+    	&lt;center&gt;
+        	&lt;table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;background-color: #e7e7e7;border-collapse: collapse !important;height: 100% !important;width: 100% !important;"&gt;
+            	&lt;tbody&gt;&lt;tr&gt;
+                	&lt;td align="center" height="100%" valign="top" width="100%" id="bodyCell" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 20px;border-collapse: collapse !important;height: 100% !important;width: 100% !important;"&gt;
+                    	&lt;table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse !important;"&gt;
+                        	&lt;tbody&gt;&lt;tr&gt;
+                            	&lt;td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"&gt;
+                                    &lt;!-- BEGIN PREHEADER --&gt;
+                                    &lt;table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 0;border-bottom: 0;border-collapse: collapse !important;"&gt;
+                                        &lt;tbody&gt;&lt;tr&gt;
+                                            &lt;td class="preheaderContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 125%;padding-top: 10px;padding-bottom: 10px;text-align: left;border-collapse: collapse !important;"&gt;Fresh PHP linkage from the sofa of Wes Mason.&lt;/td&gt;
+                                            &lt;td width="220" class="preheaderContent" style="padding-left: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 125%;padding-top: 10px;padding-bottom: 10px;text-align: left;border-collapse: collapse !important;"&gt;
+                                                &lt;a href="../archive/" target="_blank" style="color: #000000;font-weight: bold;text-decoration: none;"&gt;Back to the archive&lt;/a&gt;.
+                                            &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;&lt;/table&gt;
+                                    &lt;!-- END PREHEADER --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        	&lt;tr&gt;
+                            	&lt;td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"&gt;
+                                	&lt;!-- BEGIN HEADER --&gt;
+                                	&lt;table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 10px solid #000000;border-bottom: 5px solid #000000;border-collapse: collapse !important;"&gt;
+                                    	&lt;tbody&gt;&lt;tr&gt;
+                                            &lt;td valign="top" class="headerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 20px;font-weight: bold;line-height: 100%;padding-top: 20px;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"&gt;&lt;h1 style="display: block;font-family: Helvetica;font-size: 64px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;color: #000000 !important;"&gt;
+	&lt;img align="none" alt="PHP Weekly" height="214" src="http://gallery.mailchimp.com/a55a944d1fa277174ec5f10a2/images/logo_v2.png" style="width: 350px;height: 214px;margin-bottom: -40px;border: 0;line-height: 100%;outline: none;text-decoration: none;" width="350" /&gt;&lt;/h1&gt;
+&lt;h2 style="display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: center;color: #000000 !important;"&gt;
+	&lt;span style="color:#aaa;"&gt;Issue #18 for Sunday the 5&lt;sup&gt;th&lt;/sup&gt; of May 2013&lt;/span&gt;&lt;/h2&gt;
+&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;&lt;/table&gt;
+                                	&lt;!-- END HEADER --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        	&lt;tr&gt;
+                            	&lt;td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"&gt;
+                                	&lt;!-- BEGIN BODY --&gt;
+                                	&lt;table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 0;border-bottom: 0;border-collapse: collapse !important;"&gt;
+                                    	&lt;tbody&gt;&lt;tr&gt;
+                                        	&lt;td valign="top" class="bodyContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 16px;line-height: 150%;padding-top: 40px;padding-bottom: 40px;text-align: left;border-collapse: collapse !important;"&gt;&lt;h2 style="text-align: left;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;color: #000000 !important;"&gt;
+	&lt;font color="#d5000d" size="4"&gt;&lt;span style="line-height: 18px;"&gt;if (typeof($world-&amp;gt;yield(), 'lemon')) { ... }&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;
+The stickers I promised people should be on the way now, via various postal systems, and I've got a second batch on order with the new logo which should hopefully get here by the end of the week.&lt;br /&gt;
+I'll be speaking at &lt;a href="https://atmosphere-conference.com/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Atmosphere 2013&lt;/a&gt;, and &lt;a href="http://devopsdays.org/events/2013-berlin/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;DevOpsDays Berlin&lt;/a&gt;, so if you're attending either and you'd like one of the new PHP Weekly stickers just hit me up.&lt;br /&gt;
+&lt;br /&gt;
+One other thing I forgot to mention, as well as subscribing by &lt;a href="http://serverdensity.us6.list-manage1.com/subscribe/?u=a55a944d1fa277174ec5f10a2&amp;amp;id=2a7c2f2a5f" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;email&lt;/a&gt; or following &lt;a href="https://twitter.com/1stvamp" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;@1stvamp&lt;/a&gt; or &lt;a href="https://twitter.com/phpweekly" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;@phpweekly&lt;/a&gt; on Twitter, you can now subscribe to new weeklies via &lt;a href="http://feeds.feedburner.com/phpweekly" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;RSS&lt;/a&gt;, if that's your thing. (You may also be interested in the &lt;a href="https://github.com/1stvamp/phpweekly.info/blob/gh-pages/scripts/gen-rss.php" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;script&lt;/a&gt; I use to generate the feed from archived HTML pages.)&lt;br /&gt;
+&lt;br /&gt;
+If you find PHP Weekly useful please consider supporting me via &lt;a href="https://www.gittip.com/1stvamp/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Gittip&lt;/a&gt;&lt;a href="https://www.gittip.com/1stvamp/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt; &lt;/a&gt;&lt;a href="https://www.gittip.com/1stvamp/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	News &amp;amp; announcements&lt;/h4&gt;
+&lt;a href="http://symfony.com/blog/symfony-2-3-0-beta-1-released" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Symfony 2.3.0 Beta 1 released&lt;/a&gt;&lt;br /&gt;
+Symfony 2.3 is nearly here, with a whole &lt;a href="http://symfony.com/blog/symfony-2-3-schedule-update" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;shed load of features and changes&lt;/a&gt;, so if you use Symfony or rely on components that do (increasingly more frameworks and individual components do) you might want to get testing.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.phpmyadmin.net/home_page/news.php#phpMyAdmin_4.0.0_is_released" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;phpMyAdmin 4.0.0 released&lt;/a&gt;&lt;br /&gt;
+v4 of phpMyAdmin has gone gold, with lots of bug fixes rolled in, one of the biggest differences in 4 is that it no longer uses the well known split iframe interface and instead uses a single HTML document with a JavaScript driven tree UI.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.phparch.com/2013/04/phparchitect-april-issue-security/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;php|architect April issue out&lt;/a&gt;&lt;br /&gt;
+The April edition of &lt;i&gt;php|a&lt;/i&gt; is out, this month featuring mostly articles about security, from password hashing done right to securing file upload. the team at musketeers.me are also running a &lt;a href="https://www.surveymonkey.com/s/phpa-format" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;survey&lt;/a&gt; to access which format people prefer the magazine in as they've switched back to the classic vertical style as an experiment.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 class="null" style="line-height: 18px;display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	Articles&lt;/h4&gt;
+&lt;a href="http://phpmaster.com/an-introduction-to-ctype-functions/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;An Introduction to Ctype Functions&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/shireyllc/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+David Shirey simply covers various uses of the ctype extension for validating characters in a string.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://videlalvaro.github.io/2013/04/using-rabbitmq-in-unit-tests.html" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Using RabbitMQ in Unit Tests&lt;/a&gt; &lt;a href="https://www.gittip.com/on/github/videlalvaro/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A very clever write up by Alvaro Videla about how they uses the RabbitMQ pre-built nightly (currently only available for OS X, but this will hopefully change) to untar and run an out of the box instance of RabbitMQ with which to run their unit tests against. Very clever alternative to mocking out your RabbitMQ provider classes, or if you really want to test that part against a real component.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.littlehart.net/atthekeyboard/2013/04/30/testing-smells-try-catch/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Testing Smells - Try/catch&lt;/a&gt; &lt;a href="https://www.gittip.com/grmpyprogrammer/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+Chris "grmpyprogrammer" Hartjes gives us this great piece on why using try/catch blocks in your unit tests is nearly always bad practice, especially with inbuilt functionality in PHPUnit for handling exceptions as part of a test.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://blog.everymansoftware.com/2013/05/serializing-data-like-php-session.html" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Serializing Data Like a PHP Session&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/josh_adell/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A quick piece by Josh Adell on serialising arbitrary data to/from the format used by PHP for storing session data, as the builtin functions &lt;em&gt;session_encode &lt;/em&gt;and &lt;em&gt;session_decode &lt;/em&gt;will only work directly with the $_SESSION superglobal. Josh provides some userspace functions to get around this that work by temporarily swapping data in $_SESSION.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://dougal.gunters.org/blog/2013/05/01/wordpress-10th-anniversary-blogging-project/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;WordPress 10th Anniversary Blogging Project&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/dougal/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+Dougal Campbell kicks off discussion about WordPress's 10 year anniversary (on the 27th May) by writing about his history during the project's timeline, and encouraging others to the same. Use the hashtag &lt;em&gt;#wp10&lt;/em&gt; on Twitter to get in on the action.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.johnconde.net/blog/working-with-dates-and-times-in-php/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Working With Dates and Times in PHP&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/stymiee/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A great write up by Ravi Gill on various techniques for working with datetimes in PHP using the &lt;em&gt;DateTime&lt;/em&gt;, &lt;em&gt;DatePeriod&lt;/em&gt; and &lt;em&gt;DateInterval&lt;/em&gt; classes that ship with 5.2 and above.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://www.maltblue.com/tutorial/use-zend-framework-2-routematch-for-dynamic-routing" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Use RouteMatch in Zend Framework 2 For Easy Routing&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/settermjd" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+Matthew Setter wrote up how to use the ZF2 RouteMatch, Router and Request APIs to dynamically change the parameters and filters used by Zend Paginator instance, displaying customised results in a paginated list, with a re-render.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://phpmaster.com/crop-and-resize-images-with-imagemagick/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Crop and Resize Images with ImageMagick&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/Sandeepg33k/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A nice little tutorial by Sandeep Panda on using the ImageMagick extension to resize user uploaded images, for example automatically resizing a profile image, or even taking a user selected crop size (he covers using one of the many jQuery plugins to allow the user to select a crop size from their selected image). I would also like to note that while this is a great technique for a low impact service, e.g. for profile pictures that don't get set very often, if you are planning on doing something more image heavy (e.g. a photos site that might hit the cropping or resize functionality quite a lot) you should invest in offloading the image resizing and cropping to an out-of-request task system. As Sandeep mentions you should also put some time into making sure the file upload portion of the app is secure and has sane limits.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://techportal.inviqa.com/2013/05/02/functionally-testing-your-application-using-mink/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Functionally Testing Your Application Using Mink&lt;/a&gt; &lt;a href="https://www.gittip.com/everzet/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A great article by Konstantin Kudryashov on using the &lt;a href="http://mink.behat.org/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Mink&lt;/a&gt; browser emulation/instrumentation library to create functional/integration tests, covering hooking up to Silex using &lt;a href="https://github.com/everzet/silex-mink" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;silex-mink&lt;/a&gt;, using it with PHPUnit tests rather than Behat, and getting the most interface/API coverage out of your tests. The Selenium driver is covered, but there are plenty of drivers available for different engines.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://philsturgeon.co.uk/blog/2013/05/testing-contributing-composer-packages" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Testing and Contributing with Composer Packages&lt;/a&gt; &lt;a href="https://www.gittip.com/philsturgeon/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A typically well written and thorough guide by Phil Sturgeon on contributing to PHP packages that use Composer, from getting a package installed locally with dependencies, to testing your patch and going through with a pull request. We need lots more of this in the community to get the present ecosystem of Composer packages fleshed out and more mature&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://7php.com/php-interview-jakub-vrana/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;7php Interview With Jakub Vrana Co-Author Of The Official PHP Manual&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/7php/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+Khayrattee Wasseem is back with another great interview with a PHP community luminary, this week Jakub Vrana (&lt;a href="https://www.gittip.com/on/twitter/jakubvrana/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;) is up, known for his work on the &lt;a href="http://php.net/manual" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;PHP Manual&lt;/a&gt;, &lt;a href="http://www.adminer.org/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Adminer&lt;/a&gt; and &lt;a href="http://www.notorm.com/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;NotORM&lt;/a&gt;, covering the usual early days with PHP, how he's involved in the PHP community, to PHP hints and tips (especially some favourites from &lt;a href="http://www.albatrosmedia.cz/en/1001-php-tips-and-tricks-php-programming.html" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;his book&lt;/a&gt;), his involved with the PHP manual and more.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="http://alekseykorzun.com/post/49520668105/how-to-gracefully-handle-cache-expiration" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;How to gracefully handle cache expiration&lt;/a&gt; &lt;a href="https://www.gittip.com/on/twitter/alekseykorzun/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;♥&lt;/a&gt;&lt;br /&gt;
+A good write up by Aleksey Korzun on being smarter with your caching, focusing on using the Memcache extension with memcached for caching some model objects, and solving common high load issues such as the &lt;em&gt;thundering herd&lt;/em&gt; problem with techniques like wrapping your objects with shorted cache time and delaying cache returns out of the request cycle to avoid response delays caused by execution.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	&lt;br /&gt;
+	Projects&lt;/h4&gt;
+&lt;a href="https://github.com/rpnzl/arrch" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;arrch&lt;/a&gt;&lt;br /&gt;
+ORM-style queries for arrays, which might be just what you need if you're working with large and/or complex data structures imported into an Array.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://github.com/lordoffreaks/ClosestDate" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;ClosestDate&lt;/a&gt;&lt;br /&gt;
+A helper utility that provides APIs for finding dates close to a given date (or list or dates), handy for calendar functionality and user scheduling.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://github.com/IcecaveStudios/duct" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Duct&lt;/a&gt;&lt;br /&gt;
+A stream based JSON library which allows you to parse and utilise JSON data incrementally, such as when streamed from a network connection.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href="https://github.com/graze/event" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;graze/event&lt;/a&gt;&lt;br /&gt;
+An event based pub/sub library, allows you to subscribe to events by simply implementing a specific method or set of methods.&lt;br /&gt;
+&lt;h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	 &lt;/h4&gt;
+&lt;h4 class="null" style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	Tweet of the week&lt;/h4&gt;
+&lt;blockquote class="twitter-tweet"&gt;
+	&lt;p&gt;
+		I am not a Java Developer. I am not a C# developer. I am a &lt;a href="https://twitter.com/search/%23PHP" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;#PHP&lt;/a&gt; Developer. How hard is this to understand?&lt;/p&gt;
+	— Adam J. Seidl (@&lt;a href="https://twitter.com/ajseidl" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;ajseidl&lt;/a&gt;) &lt;a href="https://twitter.com/ajseidl/status/330421519480152065" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;May 3, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;h4 style="display: block;font-family: Helvetica;font-size: 18px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;color: #d5000d !important;"&gt;
+	Upcoming events&lt;/h4&gt;
+&lt;div&gt;
+	&lt;a href="http://brightonphp.org/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;Brighton PHP User Group&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	Brighton, UK&lt;/div&gt;
+&lt;div&gt;
+	Every month (check site for the next meeting date)&lt;/div&gt;
+&lt;div&gt;
+	 &lt;/div&gt;
+&lt;div&gt;
+	&lt;a href="http://www.meetup.com/SanDiegoPHP/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;San Diego PHP&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	San Diego, CA, USA&lt;/div&gt;
+&lt;div&gt;
+	Every month (check site for the next meeting date)&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://nomadphp.com/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Nomad PHP - Virtual User Group&lt;/a&gt;&lt;br /&gt;
+	Everywhere, Online&lt;br /&gt;
+	Every month check site for the next meeting date)&lt;/div&gt;
+&lt;div&gt;
+	 &lt;/div&gt;
+&lt;div&gt;
+	&lt;a href="http://tek.phparch.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;php[tek]&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;
+	Chicago, USA&lt;/div&gt;
+&lt;div&gt;
+	May 14th-17th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://phpconference.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;International PHP Conference 2013&lt;/a&gt;&lt;br /&gt;
+	Maritim Proarte, Berlin, Germany&lt;br /&gt;
+	June 4th-5th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://www.phpconference.nl/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;Dutch PHP Conference&lt;/a&gt;&lt;br /&gt;
+	Rai, Amsterdam, Netherlands&lt;br /&gt;
+	June 6th-8th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="https://distill.engineyard.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;Distill&lt;/a&gt;&lt;br /&gt;
+	Treasure Island, San Francisco, CA, USA&lt;br /&gt;
+	August 8th-9th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://www.phpconference.com.ar/?lang=en" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;PHP Conference Argentina&lt;/a&gt;&lt;br /&gt;
+	Buenos Aires, Argentina&lt;br /&gt;
+	October 4th-5th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://www.phpsouthafrica.com/" target="_self" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;PHP South Africa&lt;/a&gt;&lt;br /&gt;
+	Cape Town, South Africa&lt;br /&gt;
+	October 4th-5th 2013&lt;br /&gt;
+	&lt;br /&gt;
+	&lt;a href="http://2013.codeconnexx.com/" style="color: rgb(255, 0, 0);text-decoration: none;font-weight: normal;" target="_self"&gt;CodeConnexx&lt;/a&gt;&lt;/div&gt;
+Maastricht, Netherlands&lt;br /&gt;
+8th-9th November&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;To find PHP User Groups in your area check out &lt;a href="http://php.ug/" style="color: rgb(255, 0, 0); font-weight: normal; text-decoration: none;" target="_blank"&gt;PHP.ug&lt;/a&gt;!&lt;/strong&gt;&lt;br /&gt;
+&lt;hr style="height: 2px; background-color: #000; border: none" /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong style="font-size: 16px; line-height: 24px;"&gt;&lt;a href="http://www.serverdensity.com/" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;&lt;img align="left" alt="Server Density" height="100" src="http://gallery.mailchimp.com/a55a944d1fa277174ec5f10a2/images/sd_logo.gif" style="height: 100px;line-height: 16px;width: 100px;margin-right: 20px;margin-bottom: 25px;margin-left: 10px;border: 0;outline: none;text-decoration: none;display: inline;max-width: 600px !important;" width="100" /&gt;&lt;/a&gt;&lt;/strong&gt;
+&lt;h2 style="text-align: left;display: block;font-family: Helvetica;font-size: 20px;font-style: normal;font-weight: bold;line-height: 100%;letter-spacing: normal;margin-top: 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;color: #000000 !important;"&gt;
+	&lt;font color="#d5000d" size="4"&gt;&lt;span style="line-height: 18px;"&gt;&amp;lt;aside&amp;gt; from our sponsors:&lt;/span&gt;&lt;/font&gt;&lt;/h2&gt;
+&lt;p&gt;
+	&lt;strong&gt;Server Density&lt;/strong&gt; is a server and website monitoring tool. We’re supporting Wes in his quest to continually publish free, awesome PHP linkage. If you like free and awesome, you should &lt;a href="http://blog.serverdensity.com/?kme=Followed+Sponsor+Link&amp;amp;km_email+type=phpweekly" style="color: #FF0000;font-weight: normal;text-decoration: none;"&gt;visit our devops tech blog today&lt;/a&gt;.&lt;/p&gt;
+&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;&lt;/table&gt;
+                                	&lt;!-- END BODY --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                            &lt;tr&gt;
+                            	&lt;td align="center" valign="top" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse !important;"&gt;
+                                	&lt;!-- BEGIN FOOTER --&gt;
+                                    &lt;table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-top: 2px solid #000000;border-bottom: 10px none #000000;border-collapse: collapse !important;"&gt;
+                                    	&lt;tbody&gt;&lt;tr&gt;
+                                        	&lt;td valign="top" class="footerContent" style="mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 150%;padding-top: 20px;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"&gt;&lt;a href="https://twitter.com/1stvamp" style="color: #000000;font-weight: bold;text-decoration: none;"&gt;Follow @1stvamp on Twitter&lt;/a&gt;     &lt;a href="https://twitter.com/phpweekly" style="color: #000000;font-weight: bold;text-decoration: none;"&gt;Follow @phpweekly on Twitter&lt;/a&gt;      &lt;a href="http://us6.forward-to-friend.com/forward?u=a55a944d1fa277174ec5f10a2&amp;amp;id=b3c66580ba&amp;amp;e=d9d5687f03" style="color: #000000;font-weight: bold;text-decoration: none;"&gt;Forward to Friend&lt;/a&gt;  &lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    	&lt;tr&gt;
+                                        	&lt;td valign="top" class="footerContent" style="padding-top: 20px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #000000;font-family: Helvetica;font-size: 10px;line-height: 150%;padding-bottom: 20px;text-align: center;border-collapse: collapse !important;"&gt;&lt;a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license" style="color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;"&gt;&lt;img alt="Creative Commons Licence" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" style="line-height: 10px;display: inline;border: 0;height: auto;outline: none;text-decoration: none;max-width: 600 !important;" /&gt;&lt;/a&gt;&lt;br /&gt;
+This work is licensed under a &lt;a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB" rel="license" style="color: rgb(0, 0, 0); font-weight: bold; text-decoration: none;"&gt;Creative Commons Attribution-ShareAlike 3.0 Unported License&lt;/a&gt;.
+&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/tbody&gt;&lt;/table&gt;
+                                	&lt;!-- END FOOTER --&gt;
+                                &lt;/td&gt;
+                            &lt;/tr&gt;
+                        &lt;/tbody&gt;&lt;/table&gt;
+                    &lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/tbody&gt;&lt;/table&gt;
+        &lt;/center&gt;
+        &lt;script type="text/javascript"&gt;var switchTo5x=true;&lt;/script&gt;
+        &lt;script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"&gt;&lt;/script&gt;
+        &lt;script type="text/javascript" src="http://s.sharethis.com/loader.js"&gt;&lt;/script&gt;
+	&lt;script&gt;
+	    // ShareThis sidebar
+	    stLight.options({publisher: "8eaba935-5f56-48b1-b3c1-2a82188a3af3"});
+	    var options={ "publisher": "8eaba935-5f56-48b1-b3c1-2a82188a3af3", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "googleplus", "reddit", "delicious"]}};
+	    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+
+	    // Google Analytics
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-37597004-1']);
+	    _gaq.push(['_trackPageview']);
+	    (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	    })();
+	&lt;/script&gt;
+    
+
+&lt;/body&gt;</description>
+      <pubDate>Sun, 05 May 2013 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
