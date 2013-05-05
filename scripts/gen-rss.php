@@ -15,6 +15,7 @@ $channel
 	->title('PHP Weekly')
 	->description('Archived PHP Weekly issues')
 	->url($base_uri)
+	->lastBuildDate(time())
 	->appendTo($feed);
 
 foreach($dom->body->div[0]->div[0]->section[0]->ul[0]->li as $li) {
