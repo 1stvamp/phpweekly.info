@@ -1,5 +1,5 @@
 {
-    "name": "1stvamp/phpweekly",
+    "name": "1stvamp/phpweekly.info",
     "description": "Website generation tools for phpweekly.info",
     "require": {
         "faceleg/html5lib-php": "dev-master",
