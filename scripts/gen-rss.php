@@ -7,6 +7,9 @@ require $base_dir . 'vendor/autoload.php';
 
 use \Suin\RSSWriter as Rss;
 
+// UTC ALL THE THINGS!
+date_default_timezone_set('UTC');
+
 $dom = simplexml_import_dom(HTML5_Parser::parse(file_get_contents($base_dir . 'archive/index.html')));
 
 $feed = new Rss\Feed;
